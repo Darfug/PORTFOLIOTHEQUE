@@ -71,178 +71,26 @@
       "entreprise": ""
     },
     {
-      "id": "marion-leroy",
-      "prenom": "Marion",
+      "id": "samantha",
+      "prenom": "Samantha",
       "duree": "2 ans",
-      "accroche": "Affiches culturelles et identités de festivals, un goût marqué pour la couleur et la sérigraphie.",
+      "accroche": "",
       "specialites": [
         "Identité de marque",
         "Édition et print",
-        "Illustration"
-      ],
-      "mobilite": [
-        "Lille",
-        "Hauts-de-France"
-      ],
-      "dispo": "Septembre 2026",
-      "portfolio": "https://exemple.fr/marion-leroy",
-      "images": [
-        "images/marion_leroy.webp"
-      ],
-      "statut": "disponible",
-      "entreprise": ""
-    },
-    {
-      "id": "thomas-diallo",
-      "prenom": "Thomas",
-      "duree": "1 an",
-      "accroche": "Brand designer, construit des systèmes de marque complets du logotype aux déclinaisons digitales.",
-      "specialites": [
-        "Identité de marque",
+        "Webdesign",
         "UI design",
-        "Packaging"
-      ],
-      "mobilite": [
-        "Lille",
-        "National"
-      ],
-      "dispo": "Septembre 2026",
-      "portfolio": "https://exemple.fr/thomas-diallo",
-      "images": [
-        "images/thomas_diallo.webp"
-      ],
-      "statut": "disponible",
-      "entreprise": ""
-    },
-    {
-      "id": "ines-bourgeois",
-      "prenom": "Inès",
-      "duree": "2 ans",
-      "accroche": "Mise en page éditoriale et typographie, travaille aussi bien le magazine que le rapport annuel.",
-      "specialites": [
-        "Édition et print",
-        "Conception-rédaction"
-      ],
-      "mobilite": [
-        "Lille",
-        "Hauts-de-France",
-        "Hybride"
-      ],
-      "dispo": "Septembre 2026",
-      "portfolio": "https://exemple.fr/ines-bourgeois",
-      "images": [
-        "images/ines_bourgeois.webp"
-      ],
-      "statut": "disponible",
-      "entreprise": ""
-    },
-    {
-      "id": "kevin-marchand",
-      "prenom": "Kevin",
-      "duree": "1 an",
-      "accroche": "Interfaces et design systems, passe du parcours utilisateur à la maquette haute fidélité.",
-      "specialites": [
-        "UI design",
-        "UX design"
-      ],
-      "mobilite": [
-        "Lille",
-        "National",
-        "Hybride"
-      ],
-      "dispo": "Septembre 2026",
-      "portfolio": "https://exemple.fr/kevin-marchand",
-      "images": [
-        "images/kevin_marchand.webp"
-      ],
-      "statut": "disponible",
-      "entreprise": ""
-    },
-    {
-      "id": "sofia-nguyen",
-      "prenom": "Sofia",
-      "duree": "2 ans",
-      "accroche": "Packaging et design produit, du volume au visuel final, avec une sensibilité matériaux.",
-      "specialites": [
-        "Packaging",
-        "Identité de marque",
-        "3D et CGI"
-      ],
-      "mobilite": [
-        "Lille",
-        "Hauts-de-France"
-      ],
-      "dispo": "Septembre 2026",
-      "portfolio": "https://exemple.fr/sofia-nguyen",
-      "images": [
-        "images/sofia_nguyen.webp"
-      ],
-      "statut": "disponible",
-      "entreprise": ""
-    },
-    {
-      "id": "adrien-vasseur",
-      "prenom": "Adrien",
-      "duree": "1 an",
-      "accroche": "Affichiste et illustrateur, univers graphique très marqué, travaille beaucoup la contrainte de couleur.",
-      "specialites": [
-        "Illustration",
-        "Édition et print",
-        "Direction artistique événementielle"
-      ],
-      "mobilite": [
-        "Lille",
-        "Hauts-de-France"
-      ],
-      "dispo": "Septembre 2026",
-      "portfolio": "https://exemple.fr/adrien-vasseur",
-      "images": [
-        "images/adrien_vasseur.webp"
-      ],
-      "statut": "disponible",
-      "entreprise": ""
-    },
-    {
-      "id": "lea-chauvet",
-      "prenom": "Léa",
-      "duree": "2 ans",
-      "accroche": "Identités de marque et social media, produit vite et beaucoup, pense en formats déclinables.",
-      "specialites": [
-        "Identité de marque",
-        "Social media",
-        "Motion design"
-      ],
-      "mobilite": [
-        "Lille",
-        "National",
-        "Hybride"
-      ],
-      "dispo": "Septembre 2026",
-      "portfolio": "https://exemple.fr/lea-chauvet",
-      "images": [
-        "images/lea_chauvet.webp"
-      ],
-      "statut": "disponible",
-      "entreprise": ""
-    },
-    {
-      "id": "noah-perrin",
-      "prenom": "Noah",
-      "duree": "1 an",
-      "accroche": "Motion designer, habillages et formats courts, à l'aise avec le montage et le sound design.",
-      "specialites": [
-        "Motion design",
-        "3D et CGI",
+        "UX design",
         "Social media"
       ],
       "mobilite": [
         "Lille",
-        "National"
+        "Hauts-de-France"
       ],
-      "dispo": "Septembre 2026",
-      "portfolio": "https://exemple.fr/noah-perrin",
+      "dispo": "",
+      "portfolio": "https://www.figma.com/proto/Iq5u7EbL9XranWO9pMjpR3/porfolio?node-id=185-82&t=RqZavGCek1NbXzqF-1&scaling=min-zoom&content-scaling=fixed&page-id=124%3A2&starting-point-node-id=145%3A2",
       "images": [
-        "images/noah_perrin.webp"
+        "images/samantha_mu5pxbbh.webp"
       ],
       "statut": "disponible",
       "entreprise": ""
