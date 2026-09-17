@@ -42,7 +42,8 @@
       "Lille",
       "Hauts-de-France",
       "National",
-      "Hybride"
+      "Hybride",
+      "Paris"
     ]
   },
   "etudiants": [
@@ -53,8 +54,8 @@
       "accroche": "Typographie et textures, sur des palettes sobres relevées par une couleur. Projets d'école en identité de marque, affiche et magazine.",
       "specialites": [
         "Identité de marque",
-        "Typographie",
         "Édition et print",
+        "Typographie",
         "Webdesign",
         "Photographie"
       ],
@@ -85,7 +86,8 @@
       ],
       "mobilite": [
         "Lille",
-        "Hauts-de-France"
+        "Hauts-de-France",
+        "Paris"
       ],
       "dispo": "",
       "portfolio": "https://www.figma.com/proto/Iq5u7EbL9XranWO9pMjpR3/porfolio?node-id=185-82&t=RqZavGCek1NbXzqF-1&scaling=min-zoom&content-scaling=fixed&page-id=124%3A2&starting-point-node-id=145%3A2",
