@@ -1,0 +1,251 @@
+{
+  "meta": {
+    "promo": "Promotion 2026-2027",
+    "campus": "BRASSART Lille",
+    "programme": "Mastère Direction Artistique",
+    "titre": "Titre RNCP niveau 7",
+    "rythme": "3 semaines en entreprise, 1 semaine à l'école",
+    "contact_email": "t.travet@groupe-edh.com",
+    "places_hors_liste": 0,
+    "liens": {
+      "programme_1an": "documents/fiche_programme_da_1_an_2026_2027.pdf",
+      "programme_2ans": "documents/fiche_programme_da_2_ans_2026_2028.pdf",
+      "calendrier_1an": "documents/calendrier_da_1_an_2026_2027.pdf",
+      "calendrier_2ans": "documents/calendrier_da_2_ans_2026_2028.pdf",
+      "rncp_code": "RNCP42326",
+      "rncp_intitule": "Directeur artistique en design de marque et expérience utilisateur",
+      "rncp_url": "https://www.francecompetences.fr/recherche/rncp/42326"
+    }
+  },
+  "referentiel": {
+    "duree": [
+      "1 an",
+      "2 ans"
+    ],
+    "specialite": [
+      "Identité de marque",
+      "Édition et print",
+      "Typographie",
+      "Webdesign",
+      "UI design",
+      "UX design",
+      "Photographie",
+      "Packaging",
+      "Motion design",
+      "Illustration",
+      "Conception-rédaction",
+      "Social media",
+      "Direction artistique événementielle",
+      "3D et CGI"
+    ],
+    "mobilite": [
+      "Lille",
+      "Hauts-de-France",
+      "National",
+      "Hybride"
+    ]
+  },
+  "etudiants": [
+    {
+      "id": "jade",
+      "prenom": "Jade",
+      "duree": "2 ans",
+      "accroche": "Typographie et textures, sur des palettes sobres relevées par une couleur. Projets d'école en identité de marque, affiche et magazine.",
+      "specialites": [
+        "Identité de marque",
+        "Typographie",
+        "Édition et print",
+        "Webdesign",
+        "Photographie"
+      ],
+      "mobilite": [
+        "Lille",
+        "Hauts-de-France"
+      ],
+      "dispo": "Disponible dès maintenant",
+      "portfolio": "https://jadeverborghportfolio.framer.website/",
+      "images": [
+        "images/jade_nuit_blanche.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "marion-leroy",
+      "prenom": "Marion",
+      "duree": "2 ans",
+      "accroche": "Affiches culturelles et identités de festivals, un goût marqué pour la couleur et la sérigraphie.",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Illustration"
+      ],
+      "mobilite": [
+        "Lille",
+        "Hauts-de-France"
+      ],
+      "dispo": "Septembre 2026",
+      "portfolio": "https://exemple.fr/marion-leroy",
+      "images": [
+        "images/marion_leroy.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "thomas-diallo",
+      "prenom": "Thomas",
+      "duree": "1 an",
+      "accroche": "Brand designer, construit des systèmes de marque complets du logotype aux déclinaisons digitales.",
+      "specialites": [
+        "Identité de marque",
+        "UI design",
+        "Packaging"
+      ],
+      "mobilite": [
+        "Lille",
+        "National"
+      ],
+      "dispo": "Septembre 2026",
+      "portfolio": "https://exemple.fr/thomas-diallo",
+      "images": [
+        "images/thomas_diallo.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "ines-bourgeois",
+      "prenom": "Inès",
+      "duree": "2 ans",
+      "accroche": "Mise en page éditoriale et typographie, travaille aussi bien le magazine que le rapport annuel.",
+      "specialites": [
+        "Édition et print",
+        "Conception-rédaction"
+      ],
+      "mobilite": [
+        "Lille",
+        "Hauts-de-France",
+        "Hybride"
+      ],
+      "dispo": "Septembre 2026",
+      "portfolio": "https://exemple.fr/ines-bourgeois",
+      "images": [
+        "images/ines_bourgeois.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "kevin-marchand",
+      "prenom": "Kevin",
+      "duree": "1 an",
+      "accroche": "Interfaces et design systems, passe du parcours utilisateur à la maquette haute fidélité.",
+      "specialites": [
+        "UI design",
+        "UX design"
+      ],
+      "mobilite": [
+        "Lille",
+        "National",
+        "Hybride"
+      ],
+      "dispo": "Septembre 2026",
+      "portfolio": "https://exemple.fr/kevin-marchand",
+      "images": [
+        "images/kevin_marchand.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "sofia-nguyen",
+      "prenom": "Sofia",
+      "duree": "2 ans",
+      "accroche": "Packaging et design produit, du volume au visuel final, avec une sensibilité matériaux.",
+      "specialites": [
+        "Packaging",
+        "Identité de marque",
+        "3D et CGI"
+      ],
+      "mobilite": [
+        "Lille",
+        "Hauts-de-France"
+      ],
+      "dispo": "Septembre 2026",
+      "portfolio": "https://exemple.fr/sofia-nguyen",
+      "images": [
+        "images/sofia_nguyen.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "adrien-vasseur",
+      "prenom": "Adrien",
+      "duree": "1 an",
+      "accroche": "Affichiste et illustrateur, univers graphique très marqué, travaille beaucoup la contrainte de couleur.",
+      "specialites": [
+        "Illustration",
+        "Édition et print",
+        "Direction artistique événementielle"
+      ],
+      "mobilite": [
+        "Lille",
+        "Hauts-de-France"
+      ],
+      "dispo": "Septembre 2026",
+      "portfolio": "https://exemple.fr/adrien-vasseur",
+      "images": [
+        "images/adrien_vasseur.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "lea-chauvet",
+      "prenom": "Léa",
+      "duree": "2 ans",
+      "accroche": "Identités de marque et social media, produit vite et beaucoup, pense en formats déclinables.",
+      "specialites": [
+        "Identité de marque",
+        "Social media",
+        "Motion design"
+      ],
+      "mobilite": [
+        "Lille",
+        "National",
+        "Hybride"
+      ],
+      "dispo": "Septembre 2026",
+      "portfolio": "https://exemple.fr/lea-chauvet",
+      "images": [
+        "images/lea_chauvet.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "noah-perrin",
+      "prenom": "Noah",
+      "duree": "1 an",
+      "accroche": "Motion designer, habillages et formats courts, à l'aise avec le montage et le sound design.",
+      "specialites": [
+        "Motion design",
+        "3D et CGI",
+        "Social media"
+      ],
+      "mobilite": [
+        "Lille",
+        "National"
+      ],
+      "dispo": "Septembre 2026",
+      "portfolio": "https://exemple.fr/noah-perrin",
+      "images": [
+        "images/noah_perrin.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    }
+  ]
+}

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>Alternants Direction Artistique, BRASSART Lille</title>
+<link rel="icon" href="assets/b_brassart.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    /* Charte BRASSART */
+    --magenta:#c61063;      /* couleur principale */
+    --da:#ff451d;           /* couleur de la filiere Direction Artistique */
+    --noir:#000000;
+    --encre:#1a1718;
+    --gris:#e7e6e6;
+    --papier:#f4f2f1;
+    --blanc:#ffffff;
+    --muted:#6d6a6b;
+    --gap:clamp(16px,2.2vw,30px);
+    --font:"Gotham","Montserrat",system-ui,sans-serif;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{margin:0;background:var(--papier);color:var(--encre);
+    font-family:var(--font);font-size:16px;line-height:1.55;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:1680px;margin:0 auto;padding:0 clamp(18px,3vw,48px)}
+  :focus-visible{outline:3px solid var(--da);outline-offset:2px}
+
+  /* ---------- Bandeau de marque, reduit ---------- */
+  .brandbar{background:var(--magenta);color:var(--blanc)}
+  .brandbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;
+    min-height:clamp(96px,8.5vw,128px);padding-top:18px;padding-bottom:18px;flex-wrap:wrap}
+  .brandbar img{height:clamp(40px,4.2vw,58px);width:auto;display:block}
+  .brandbar span{font-size:13.5px;font-weight:500;opacity:.95}
+
+  /* ---------- Titre compact ---------- */
+  .intro{padding:clamp(20px,2.6vw,34px) 0 clamp(14px,1.8vw,20px)}
+  .intro .wrap{display:flex;align-items:flex-end;justify-content:space-between;gap:clamp(20px,3vw,56px);flex-wrap:wrap}
+  h1{margin:0;font-weight:700;font-size:clamp(25px,3vw,42px);line-height:1.1;letter-spacing:-.02em;max-width:22ch}
+  h1 em{font-style:normal;color:var(--magenta)}
+  .lede{margin:9px 0 0;max-width:62ch;font-size:15px;font-weight:300;color:#403c3d}
+  .facts{display:flex;gap:clamp(18px,2.4vw,38px);flex-wrap:wrap;padding-bottom:4px}
+  .facts div{border-top:2px solid var(--noir);padding-top:9px;min-width:132px}
+  .facts b{display:block;font-weight:700;font-size:16px;line-height:1.2}
+  .facts span{display:block;font-weight:300;font-size:12.5px;color:var(--muted);margin-top:3px}
+
+  .ressources{margin-top:clamp(18px,2.2vw,28px);padding-top:16px;border-top:1px solid var(--gris);
+    display:flex;flex-wrap:wrap;gap:12px clamp(22px,3vw,44px);width:100%}
+  .resgroup{display:flex;flex-wrap:wrap;align-items:center;gap:8px}
+  .resgroup > span{font-size:11.5px;font-weight:600;letter-spacing:.03em;color:var(--muted)}
+  .resgroup a{display:inline-flex;align-items:center;gap:8px;font-size:13.5px;font-weight:600;
+    text-decoration:none;color:var(--magenta);background:var(--blanc);border:1.5px solid var(--magenta);
+    padding:9px 15px;border-radius:999px}
+  .resgroup a:hover{background:var(--magenta);color:var(--blanc)}
+  .resgroup a::after{content:"PDF";font-size:9.5px;font-weight:700;letter-spacing:.07em;opacity:.7}
+  .resgroup a.web::after{content:"\2197";font-size:13px;letter-spacing:0;opacity:.7}
+
+  /* ---------- Filtres ---------- */
+  .bar{position:sticky;top:0;z-index:20;background:var(--blanc);border-top:1px solid var(--gris);border-bottom:1px solid var(--gris)}
+  .bar.stuck{box-shadow:0 12px 26px -22px rgba(0,0,0,.75)}
+  .bar-inner{padding:12px 0 11px}
+  .searchrow{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+  #q{flex:1 1 240px;min-width:0;background:var(--papier);border:1px solid var(--gris);
+    padding:10px 13px;font:inherit;font-size:14.5px;color:var(--encre);border-radius:2px}
+  #q::placeholder{color:#989495}
+  .count{font-size:14px;color:var(--muted);white-space:nowrap}
+  .count b{color:var(--noir);font-weight:600}
+  .linkbtn{background:none;border:0;padding:0;font:inherit;font-size:13.5px;font-weight:500;
+    color:var(--magenta);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+  .facets{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:11px}
+  .facet{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+  .facet > span{font-size:11.5px;font-weight:600;letter-spacing:.03em;color:var(--muted);margin-right:2px}
+  .chip{font:inherit;font-size:13px;font-weight:500;line-height:1;cursor:pointer;background:var(--blanc);
+    color:var(--encre);border:1px solid #d6d3d4;padding:8px 12px;border-radius:999px}
+  .chip:hover{border-color:var(--noir)}
+  .chip[aria-pressed="true"]{background:var(--da);border-color:var(--da);color:var(--blanc)}
+  .toggle-more{border-style:dashed;color:var(--muted)}
+
+  /* ---------- Grille, visuels dominants ---------- */
+  main{padding:var(--gap) 0 0}
+  .grid{column-count:3;column-gap:var(--gap)}
+  @media(max-width:1380px){.grid{column-count:2}}
+  @media(max-width:760px){.grid{column-count:1}}
+  .card{break-inside:avoid;margin:0 0 var(--gap);background:var(--blanc);display:flex;flex-direction:column}
+  .shot{display:block;position:relative;overflow:hidden;background:var(--gris)}
+  .shot img{display:block;width:100%;height:auto;
+    transition:transform .55s cubic-bezier(.2,.6,.2,1)}
+  .shot::after{content:"";position:absolute;inset:0;background:var(--noir);opacity:0;
+    transition:opacity .35s ease;pointer-events:none}
+  .reveal{position:absolute;top:50%;left:50%;z-index:2;pointer-events:none;
+    transform:translate(-50%,-50%) translateY(10px);opacity:0;
+    transition:opacity .3s ease,transform .45s cubic-bezier(.2,.6,.2,1);
+    color:var(--blanc);border:1.5px solid var(--blanc);border-radius:999px;
+    padding:11px 21px;font-size:14px;font-weight:600;white-space:nowrap}
+  .card:hover .shot img,.shot:focus-visible img{transform:scale(1.05)}
+  .card:hover .shot::after,.shot:focus-visible::after{opacity:.4}
+  .card:hover .reveal,.shot:focus-visible .reveal{opacity:1;transform:translate(-50%,-50%)}
+  .label{padding:20px 22px 22px}
+  .name{margin:0;font-weight:700;font-size:clamp(23px,1.9vw,29px);letter-spacing:-.02em;line-height:1.15;
+    display:flex;justify-content:space-between;gap:14px;align-items:baseline;color:var(--noir)}
+  .duree{font-weight:600;font-size:12px;color:var(--da);white-space:nowrap;letter-spacing:.04em;text-transform:uppercase}
+  .meta{margin:9px 0 0;font-size:14px;font-weight:500;color:var(--encre)}
+  .meta em{font-style:normal;font-weight:300;color:var(--muted)}
+  .tags{margin:15px 0 0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:6px}
+  .tags li{font-size:12.5px;font-weight:600;color:var(--magenta);background:rgba(198,16,99,.08);
+    padding:6px 11px;border-radius:999px}
+  .accroche{margin:16px 0 0;font-size:14px;font-weight:300;line-height:1.55;color:var(--muted);max-width:52ch}
+  .actions{margin:18px 0 0;padding-top:16px;border-top:1px solid var(--gris);
+    display:flex;gap:20px;align-items:baseline;font-size:14.5px}
+  .actions .go{font-weight:600;color:var(--magenta);text-underline-offset:3px}
+  .actions .secondary{font-weight:400;color:var(--muted)}
+
+  .empty{background:var(--blanc);padding:36px 30px;max-width:56ch;margin:0 0 var(--gap);border-top:4px solid var(--da)}
+  .empty h2{font-weight:700;font-size:22px;margin:0 0 10px;letter-spacing:-.01em}
+  .empty p{margin:0;color:#403c3d}
+
+  /* ---------- Pied ---------- */
+  footer{margin-top:clamp(40px,5vw,72px);background:var(--noir);color:var(--blanc)}
+  .foot-inner{padding:clamp(26px,3.4vw,44px) 0;display:flex;flex-wrap:wrap;gap:24px 60px;
+    justify-content:space-between;align-items:center}
+  footer p{margin:0;max-width:62ch;font-size:13px;font-weight:300;line-height:1.6}
+  footer a{color:var(--blanc)}
+  footer img{height:30px;width:auto;display:block}
+
+  @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
+</style>
+</head>
+<body>
+
+<div class="brandbar">
+  <div class="wrap">
+    <img src="assets/logo_brassart_blanc.png" alt="BRASSART">
+    <span id="eyebrow"></span>
+  </div>
+</div>
+
+<section class="intro">
+  <div class="wrap">
+    <div>
+      <h1>Ils cherchent une alternance en <em>Direction Artistique</em></h1>
+      <p class="lede">Chaque visuel est un travail personnel. Cliquez, le portfolio complet est derrière.</p>
+    </div>
+    <div class="facts" id="facts"></div>
+    <div class="ressources" id="ressources"></div>
+  </div>
+</section>
+
+<div class="bar" id="bar">
+  <div class="wrap bar-inner">
+    <div class="searchrow">
+      <input id="q" type="search" placeholder="Chercher un nom ou une compétence" aria-label="Rechercher">
+      <span class="count" id="count"></span>
+      <button class="linkbtn" id="reset" hidden>Tout afficher</button>
+      <button class="linkbtn" id="copylink">Copier ce lien filtré</button>
+    </div>
+    <div class="facets" id="facets"></div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="empty" id="empty" hidden>
+    <h2>Aucun profil ne correspond</h2>
+    <p>Élargissez la recherche, ou écrivez-nous directement. Nous connaissons nos étudiants et nous pouvons vous orienter vers le bon profil.</p>
+  </div>
+  <div class="grid" id="grid"></div>
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <img src="assets/logo_brassart_blanc.png" alt="BRASSART">
+    <p>Les travaux présentés restent la propriété de leurs auteurs et sont diffusés avec leur accord. Page réservée à nos entreprises partenaires, non référencée. Pour toute demande de retrait, <a id="foot-mail" href="#">écrivez-nous</a>.</p>
+  </div>
+</footer>
+
+<script>
+const FACETS = [
+  {key:"duree",      champ:"duree",       label:"Durée",      visibles:9},
+  {key:"specialite", champ:"specialites", label:"Spécialité", visibles:6},
+  {key:"mobilite",   champ:"mobilite",    label:"Mobilité",   visibles:9}
+];
+
+let DATA = null;
+const active = {};
+FACETS.forEach(f => active[f.key] = new Set());
+let query = "";
+let src = "";
+
+const esc = s => String(s == null ? "" : s)
+  .replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;")
+  .replace(/"/g,"&quot;").replace(/'/g,"&#39;");
+
+function readUrl(){
+  const p = new URLSearchParams(location.search);
+  src = p.get("src") || "";
+  query = p.get("q") || "";
+  FACETS.forEach(f => {
+    const v = p.get(f.key);
+    if (v) v.split(",").filter(Boolean).forEach(x => active[f.key].add(x));
+  });
+  document.getElementById("q").value = query;
+}
+
+function writeUrl(){
+  const p = new URLSearchParams();
+  if (src) p.set("src", src);
+  if (query) p.set("q", query);
+  FACETS.forEach(f => { if (active[f.key].size) p.set(f.key, [...active[f.key]].join(",")); });
+  const qs = p.toString();
+  history.replaceState(null, "", qs ? "?" + qs : location.pathname);
+}
+
+function buildFacets(){
+  const box = document.getElementById("facets");
+  box.innerHTML = "";
+  FACETS.forEach(f => {
+    const values = DATA.referentiel[f.key] || [];
+    if (!values.length) return;
+    const group = document.createElement("div");
+    group.className = "facet";
+    const lab = document.createElement("span");
+    lab.textContent = f.label;
+    group.appendChild(lab);
+
+    const hidden = [];
+    values.forEach((v, i) => {
+      const b = document.createElement("button");
+      b.className = "chip";
+      b.type = "button";
+      b.textContent = v;
+      b.setAttribute("aria-pressed", active[f.key].has(v) ? "true" : "false");
+      b.addEventListener("click", () => {
+        active[f.key].has(v) ? active[f.key].delete(v) : active[f.key].add(v);
+        b.setAttribute("aria-pressed", active[f.key].has(v) ? "true" : "false");
+        render();
+      });
+      if (i >= f.visibles && !active[f.key].has(v)) { b.hidden = true; hidden.push(b); }
+      group.appendChild(b);
+    });
+
+    if (hidden.length){
+      const more = document.createElement("button");
+      more.className = "chip toggle-more";
+      more.type = "button";
+      more.textContent = "+ " + hidden.length;
+      more.addEventListener("click", () => { hidden.forEach(h => h.hidden = false); more.remove(); });
+      group.appendChild(more);
+    }
+    box.appendChild(group);
+  });
+}
+
+function matches(e){
+  if (e.statut === "place") return false;
+  for (const f of FACETS){
+    const sel = active[f.key];
+    if (!sel.size) continue;
+    const val = e[f.champ];
+    const list = Array.isArray(val) ? val : [val];
+    if (![...sel].some(s => list.includes(s))) return false;
+  }
+  if (query){
+    const hay = [e.prenom, e.duree, e.accroche, e.dispo,
+                 (e.specialites||[]).join(" "), (e.mobilite||[]).join(" ")]
+                 .join(" ").toLowerCase();
+    const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+    if (!terms.every(t => hay.includes(t))) return false;
+  }
+  return true;
+}
+
+function portfolioUrl(e){
+  if (!e.portfolio) return "";
+  if (!src) return e.portfolio;
+  return e.portfolio + (e.portfolio.includes("?") ? "&" : "?") + "src=" + encodeURIComponent(src);
+}
+
+function mailto(e){
+  const sujet = "Alternance Direction Artistique, " + e.prenom + ", BRASSART Lille";
+  return "mailto:" + (DATA.meta.contact_email || "") + "?subject=" + encodeURIComponent(sujet);
+}
+
+function cardHtml(e){
+  const img = (e.images && e.images[0]) ? e.images[0] : "";
+  const url = portfolioUrl(e);
+  const tags = (e.specialites || []).map(s => "<li>" + esc(s) + "</li>").join("");
+  const lieu = (e.mobilite || []).join(", ");
+  const meta = [esc(lieu), e.dispo ? "<em>" + esc(e.dispo) + "</em>" : ""].filter(Boolean).join(" &middot; ");
+  const shot = img
+    ? '<a class="shot" href="' + esc(url) + '" target="_blank" rel="noopener"><img src="' + esc(img) +
+      '" alt="Travail de ' + esc(e.prenom) + '" loading="lazy" decoding="async">' +
+      '<span class="reveal">Voir le portfolio</span></a>'
+    : '';
+  return '<article class="card">' + shot +
+    '<div class="label">' +
+      '<h2 class="name">' + esc(e.prenom) +
+        (e.duree ? '<span class="duree">' + esc(e.duree) + " d\u2019alternance</span>" : "") + '</h2>' +
+      (meta ? '<p class="meta">' + meta + '</p>' : '') +
+      (tags ? '<ul class="tags">' + tags + '</ul>' : '') +
+      (e.accroche ? '<p class="accroche">' + esc(e.accroche) + '</p>' : '') +
+      '<p class="actions">' +
+        (url ? '<a class="go" href="' + esc(url) + '" target="_blank" rel="noopener">Voir le portfolio</a>' : '') +
+        '<a class="secondary" href="' + esc(mailto(e)) + '">Prendre rendez-vous</a>' +
+      '</p>' +
+    '</div>' +
+  '</article>';
+}
+
+function render(){
+  const list = DATA.etudiants.filter(matches);
+  document.getElementById("grid").innerHTML = list.map(cardHtml).join("");
+  document.getElementById("empty").hidden = list.length > 0;
+
+  const total = DATA.etudiants.filter(e => e.statut !== "place").length;
+  document.getElementById("count").innerHTML = list.length === total
+    ? "<b>" + total + "</b> profils"
+    : "<b>" + list.length + "</b> sur " + total + " profils";
+
+  document.getElementById("reset").hidden = !(query || FACETS.some(f => active[f.key].size));
+  writeUrl();
+}
+
+function fillMeta(){
+  const m = DATA.meta;
+  document.getElementById("eyebrow").textContent = [m.campus, m.promo].filter(Boolean).join(" \u00b7 ");
+  document.title = "Alternants Direction Artistique, " + (m.campus || "BRASSART");
+
+  const dispo = DATA.etudiants.filter(e => e.statut !== "place").length;
+  const places = DATA.etudiants.filter(e => e.statut === "place").length + (Number(m.places_hors_liste) || 0);
+
+  const blocs = [
+    "<b>" + dispo + " profils</b><span>Disponibles à ce jour</span>",
+    "<b>" + esc(m.rythme || "") + "</b><span>Apprentissage ou professionnalisation</span>"
+  ];
+  if (places > 0) blocs.push("<b>" + places + " déjà placés</b><span>Depuis le début de l'année</span>");
+  else if (m.titre) blocs.push("<b>" + esc(m.titre) + "</b><span>Délivré en fin de Mastère</span>");
+  document.getElementById("facts").innerHTML = blocs.map(b => "<div>" + b + "</div>").join("");
+
+  const L = m.liens || {};
+  const pdf = (href, texte) => href
+    ? '<a href="' + esc(href) + '" target="_blank" rel="noopener">' + esc(texte) + '</a>' : '';
+  const groupes = [];
+  if (L.programme_1an || L.programme_2ans){
+    groupes.push('<div class="resgroup"><span>Détails des formations</span>' +
+      pdf(L.programme_1an, "En 1 an") + pdf(L.programme_2ans, "En 2 ans") + '</div>');
+  }
+  if (L.calendrier_1an || L.calendrier_2ans){
+    groupes.push('<div class="resgroup"><span>Calendriers</span>' +
+      pdf(L.calendrier_1an, "En 1 an") + pdf(L.calendrier_2ans, "En 2 ans") + '</div>');
+  }
+  if (L.rncp_url){
+    groupes.push('<div class="resgroup"><span>Certification</span>' +
+      '<a class="web" href="' + esc(L.rncp_url) + '" target="_blank" rel="noopener">' +
+      esc(L.rncp_intitule || "Titre RNCP") +
+      (L.rncp_code ? " (" + esc(L.rncp_code) + ")" : "") + '</a></div>');
+  }
+  document.getElementById("ressources").innerHTML = groupes.join("");
+
+  if (m.contact_email){
+    document.getElementById("foot-mail").href =
+      "mailto:" + m.contact_email + "?subject=" + encodeURIComponent("Vitrine alternance DA - BRASSART Lille");
+  }
+}
+
+document.getElementById("q").addEventListener("input", ev => { query = ev.target.value.trim(); render(); });
+document.getElementById("reset").addEventListener("click", () => {
+  query = ""; document.getElementById("q").value = "";
+  FACETS.forEach(f => active[f.key].clear());
+  document.querySelectorAll(".chip[aria-pressed]").forEach(c => c.setAttribute("aria-pressed","false"));
+  render();
+});
+document.getElementById("copylink").addEventListener("click", async ev => {
+  try{
+    await navigator.clipboard.writeText(location.href);
+    ev.target.textContent = "Lien copié";
+    setTimeout(() => ev.target.textContent = "Copier ce lien filtré", 1800);
+  }catch(err){ ev.target.textContent = "Copie impossible"; }
+});
+
+const bar = document.getElementById("bar");
+new IntersectionObserver(([e]) => bar.classList.toggle("stuck", e.intersectionRatio < 1), {threshold:[1]}).observe(bar);
+
+fetch("etudiants.json?v=" + Date.now())
+  .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(json => { DATA = json; readUrl(); fillMeta(); buildFacets(); render(); })
+  .catch(err => {
+    document.getElementById("grid").innerHTML =
+      '<div class="empty"><h2>Les profils ne se chargent pas</h2><p>Le fichier etudiants.json est introuvable ou invalide. Rechargez la page&nbsp;; si le problème persiste, prévenez-nous.</p></div>';
+    console.error(err);
+  });
+</script>
+</body>
+</html>
