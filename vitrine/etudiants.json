@@ -53,7 +53,9 @@
       "MEL",
       "île-de-France",
       "Cambraisis",
-      "Marseille"
+      "Marseille",
+      "Lens",
+      "Hénin-Beaumont"
     ]
   },
   "etudiants": [
@@ -407,6 +409,36 @@
       "portfolio": "https://www.behance.net/gallery/247575547/PORTFOLIO-2026",
       "images": [
         "images/louise_mu6t1ihx.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "elena",
+      "prenom": "Eléna",
+      "duree": "2 ans",
+      "accroche": "",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Webdesign",
+        "UI design",
+        "Photographie",
+        "Illustration",
+        "Direction artistique événementielle",
+        "Direction artistique",
+        "Direction artistique culturelle"
+      ],
+      "mobilite": [
+        "Lille",
+        "MEL",
+        "Lens",
+        "Hénin-Beaumont"
+      ],
+      "dispo": "",
+      "portfolio": "https://acrobat.adobe.com/id/urn:aaid:sc:EU:13429d39-cf16-4da3-b95f-c12ada91d610",
+      "images": [
+        "images/elena_mu6t7dmc.webp"
       ],
       "statut": "disponible",
       "entreprise": ""
