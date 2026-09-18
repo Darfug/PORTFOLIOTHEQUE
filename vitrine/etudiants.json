@@ -42,7 +42,8 @@
       "Lille",
       "Hauts-de-France",
       "National",
-      "Paris"
+      "Paris",
+      "Normandie"
     ]
   },
   "etudiants": [
@@ -75,23 +76,30 @@
       "prenom": "Samantha",
       "duree": "2 ans",
       "accroche": "",
-      "specialites": [
-        "Identité de marque",
-        "Édition et print",
-        "Webdesign",
-        "UI design",
-        "UX design",
-        "Social media"
-      ],
-      "mobilite": [
-        "Lille",
-        "Hauts-de-France",
-        "Paris"
-      ],
+      "specialites": [],
+      "mobilite": [],
       "dispo": "",
       "portfolio": "https://www.figma.com/proto/Iq5u7EbL9XranWO9pMjpR3/porfolio?node-id=185-82&t=RqZavGCek1NbXzqF-1&scaling=min-zoom&content-scaling=fixed&page-id=124%3A2&starting-point-node-id=145%3A2",
       "images": [
         "images/samantha_mu5pxbbh.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "rozenn",
+      "prenom": "Rozenn",
+      "duree": "2 ans",
+      "accroche": "Une pensée par le système : grilles, tracés, données converties en structure. Noir et blanc tenu, une couleur d'accent, une typographie massive posée comme une architecture.",
+      "specialites": [],
+      "mobilite": [
+        "Lille",
+        "Normandie"
+      ],
+      "dispo": "",
+      "portfolio": "https://drive.google.com/file/d/1B2M36_-xejhpPsoTrDvyiUs0fU3o00Xy/view",
+      "images": [
+        "images/rozenn_mu6oq2x6.webp"
       ],
       "statut": "disponible",
       "entreprise": ""
