@@ -500,6 +500,35 @@
       ],
       "statut": "disponible",
       "entreprise": ""
+    },
+    {
+      "id": "elian",
+      "prenom": "Elian",
+      "duree": "2 ans",
+      "accroche": "",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Webdesign",
+        "UI design",
+        "UX design",
+        "Packaging",
+        "Direction artistique",
+        "3D"
+      ],
+      "mobilite": [
+        "Lille",
+        "National",
+        "Paris",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://readymag.website/u944248948/6275330/",
+      "images": [
+        "images/elian_mu6tvace.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
     }
   ]
 }
