@@ -43,7 +43,8 @@
       "Hauts-de-France",
       "National",
       "Paris",
-      "Normandie"
+      "Normandie",
+      "MEL"
     ]
   },
   "etudiants": [
@@ -100,7 +101,8 @@
       ],
       "mobilite": [
         "Lille",
-        "Normandie"
+        "Normandie",
+        "MEL"
       ],
       "dispo": "",
       "portfolio": "https://drive.google.com/file/d/1B2M36_-xejhpPsoTrDvyiUs0fU3o00Xy/view",
