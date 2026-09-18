@@ -330,6 +330,31 @@
       ],
       "statut": "disponible",
       "entreprise": ""
+    },
+    {
+      "id": "morgan",
+      "prenom": "Morgan",
+      "duree": "2 ans",
+      "accroche": "Des couleurs qui hurlent, du collage d'images empilées, des typographies empruntées partout. Un graphisme qui charge la page plutôt que de la vider.",
+      "specialites": [
+        "Édition et print",
+        "Typographie",
+        "Packaging",
+        "Illustration",
+        "Direction artistique",
+        "3D"
+      ],
+      "mobilite": [
+        "Lille",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://drive.google.com/file/d/1mVZfzFr3B-enhPQBQab3DOBpa-EjnVWW/view?usp=sharing",
+      "images": [
+        "images/morgan_mu6smbd0.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
     }
   ]
 }
