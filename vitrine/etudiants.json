@@ -469,6 +469,37 @@
       ],
       "statut": "disponible",
       "entreprise": ""
+    },
+    {
+      "id": "marieme",
+      "prenom": "Marième",
+      "duree": "1 an",
+      "accroche": "Des fonds textiles sous des aplats saturés, des typographies grasses aux formes fermées, et un goût pour les codes empruntés au vintage et à la contre-culture.",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Typographie",
+        "Webdesign",
+        "UI design",
+        "UX design",
+        "Packaging",
+        "Motion design",
+        "Illustration",
+        "Direction artistique événementielle",
+        "Direction artistique",
+        "Direction artistique culturelle"
+      ],
+      "mobilite": [
+        "Lille",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://drive.google.com/file/d/1UtMdWk3rpF0mUf-yJ4xbk3VrjDfdhxi9/view?usp=sharing",
+      "images": [
+        "images/marieme_mu6tplda.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
     }
   ]
 }
