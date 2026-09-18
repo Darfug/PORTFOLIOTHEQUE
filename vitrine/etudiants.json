@@ -91,7 +91,13 @@
       "prenom": "Rozenn",
       "duree": "2 ans",
       "accroche": "Une pensée par le système : grilles, tracés, données converties en structure. Noir et blanc tenu, une couleur d'accent, une typographie massive posée comme une architecture.",
-      "specialites": [],
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Typographie",
+        "Webdesign",
+        "UI design"
+      ],
       "mobilite": [
         "Lille",
         "Normandie"
