@@ -127,6 +127,42 @@
   footer a{color:var(--blanc)}
   footer img{height:30px;width:auto;display:block}
 
+  /* ---------- Mobile : barre de filtres repliable ---------- */
+  .filtertoggle{display:none;align-items:center;gap:8px;font:inherit;font-size:14px;font-weight:600;
+    cursor:pointer;background:var(--blanc);color:var(--encre);border:1.5px solid var(--encre);
+    padding:9px 15px;border-radius:999px}
+  .filtertoggle b{display:none;min-width:19px;height:19px;padding:0 5px;border-radius:999px;
+    background:var(--da);color:var(--blanc);font-size:11.5px;line-height:19px;text-align:center}
+  .filtertoggle b.on{display:inline-block}
+  .bar.open .filtertoggle{background:var(--encre);color:var(--blanc)}
+
+  @media(max-width:760px){
+    .wrap{padding:0 14px}
+    .brandbar .wrap{min-height:70px;padding-top:14px;padding-bottom:14px}
+    .brandbar img{height:32px}
+    .intro{padding:18px 0 14px}
+    .facts{gap:14px 22px}
+    .facts div{min-width:0;flex:1 1 140px;padding-top:7px}
+    .facts b{font-size:14.5px}
+    .ressources{margin-top:16px;padding-top:14px;gap:10px 18px}
+    .resgroup a{font-size:12.5px;padding:8px 13px}
+
+    .bar-inner{padding:9px 0}
+    .filtertoggle{display:inline-flex}
+    .searchrow{gap:10px;justify-content:space-between}
+    #q{display:none;order:9;flex:1 1 100%}
+    .facets{display:none;order:10;flex:1 1 100%;max-height:50vh;overflow-y:auto;
+      margin-top:10px;padding-bottom:4px}
+    #copylink{display:none}
+    .bar.open #q,.bar.open #copylink{display:block}
+    .bar.open .facets{display:flex}
+
+    .label{padding:16px 16px 18px}
+    .name{font-size:24px}
+    .accroche{margin-top:13px}
+    .actions{margin-top:15px;padding-top:13px}
+  }
+
   @media(prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important}}
 </style>
 </head>
@@ -153,6 +189,7 @@
 <div class="bar" id="bar">
   <div class="wrap bar-inner">
     <div class="searchrow">
+      <button class="filtertoggle" id="togglefilters" type="button" aria-expanded="false">Filtrer<b id="fcount"></b></button>
       <input id="q" type="search" placeholder="Chercher un nom ou une compétence" aria-label="Rechercher">
       <span class="count" id="count"></span>
       <button class="linkbtn" id="reset" hidden>Tout afficher</button>
@@ -320,7 +357,12 @@ function render(){
     ? "<b>" + total + "</b> profils"
     : "<b>" + list.length + "</b> sur " + total + " profils";
 
-  document.getElementById("reset").hidden = !(query || FACETS.some(f => active[f.key].size));
+  const nbFiltres = FACETS.reduce((n, f) => n + active[f.key].size, 0);
+  const badge = document.getElementById("fcount");
+  badge.textContent = nbFiltres || "";
+  badge.className = nbFiltres ? "on" : "";
+
+  document.getElementById("reset").hidden = !(query || nbFiltres);
   writeUrl();
 }
 
@@ -366,6 +408,13 @@ function fillMeta(){
   }
 }
 
+const barre = document.getElementById("bar");
+document.getElementById("togglefilters").addEventListener("click", ev => {
+  const ouvert = barre.classList.toggle("open");
+  ev.currentTarget.setAttribute("aria-expanded", ouvert ? "true" : "false");
+  if (ouvert) document.getElementById("q").focus();
+});
+
 document.getElementById("q").addEventListener("input", ev => { query = ev.target.value.trim(); render(); });
 document.getElementById("reset").addEventListener("click", () => {
   query = ""; document.getElementById("q").value = "";
@@ -381,8 +430,8 @@ document.getElementById("copylink").addEventListener("click", async ev => {
   }catch(err){ ev.target.textContent = "Copie impossible"; }
 });
 
-const bar = document.getElementById("bar");
-new IntersectionObserver(([e]) => bar.classList.toggle("stuck", e.intersectionRatio < 1), {threshold:[1]}).observe(bar);
+new IntersectionObserver(([e]) => barre.classList.toggle("stuck", e.intersectionRatio < 1),
+  {threshold:[1]}).observe(barre);
 
 fetch("etudiants.json?v=" + Date.now())
   .then(r => { if(!r.ok) throw new Error(r.status); return r.json(); })
