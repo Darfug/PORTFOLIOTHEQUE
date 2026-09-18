@@ -37,7 +37,8 @@
       "Social media",
       "Direction artistique événementielle",
       "3D et CGI",
-      "Direction artistique"
+      "Direction artistique",
+      "Signalétique et habillage"
     ],
     "mobilite": [
       "Lille",
@@ -140,6 +141,31 @@
       "portfolio": "https://www.behance.net/gallery/239054719/Portfolio-2026",
       "images": [
         "images/ana_mu6pniql.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "mathilde",
+      "prenom": "Mathilde",
+      "duree": "2 ans",
+      "accroche": "Deux régimes tenus ensemble : des identités réduites à des formes franches, et une illustration au trait posée sur des couleurs tendres et des trames imprimées.",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Typographie",
+        "Illustration",
+        "Direction artistique",
+        "Signalétique et habillage"
+      ],
+      "mobilite": [
+        "Lille",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://drive.google.com/file/d/1k56j1d5xBWFHmKH0vTo4jfxsGa7OXlZU/view?usp=sharing",
+      "images": [
+        "images/mathilde_mu6qhyhc.webp"
       ],
       "statut": "disponible",
       "entreprise": ""
