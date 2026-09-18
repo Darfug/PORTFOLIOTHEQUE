@@ -36,7 +36,8 @@
       "Conception-rédaction",
       "Social media",
       "Direction artistique événementielle",
-      "3D et CGI"
+      "3D et CGI",
+      "Direction artistique"
     ],
     "mobilite": [
       "Lille",
@@ -108,6 +109,35 @@
       "portfolio": "https://drive.google.com/file/d/1B2M36_-xejhpPsoTrDvyiUs0fU3o00Xy/view",
       "images": [
         "images/rozenn_mu6oq2x6.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "ana",
+      "prenom": "Ana",
+      "duree": "2 ans",
+      "accroche": "Trames, grain et moiré traités comme de la matière, collages assemblés par fragments. Un graphisme qui pense d'abord au papier et à la façon dont l'encre se pose.",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Typographie",
+        "Photographie",
+        "Packaging",
+        "Motion design",
+        "Illustration",
+        "Social media",
+        "Direction artistique événementielle",
+        "Direction artistique"
+      ],
+      "mobilite": [
+        "Lille",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://www.behance.net/gallery/239054719/Portfolio-2026",
+      "images": [
+        "images/ana_mu6pniql.webp"
       ],
       "statut": "disponible",
       "entreprise": ""
