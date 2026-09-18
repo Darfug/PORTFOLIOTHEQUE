@@ -50,7 +50,8 @@
       "Paris",
       "Normandie",
       "MEL",
-      "île-de-France"
+      "île-de-France",
+      "Cambraisis"
     ]
   },
   "etudiants": [
@@ -83,9 +84,32 @@
       "id": "samantha",
       "prenom": "Samantha",
       "duree": "2 ans",
-      "accroche": "",
-      "specialites": [],
-      "mobilite": [],
+      "accroche": "Grunge dans les oreilles, punk dans le crayon avec la possibilité d'avoir un cadre.",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Typographie",
+        "Webdesign",
+        "UI design",
+        "UX design",
+        "Photographie",
+        "Packaging",
+        "Motion design",
+        "Illustration",
+        "Conception-rédaction",
+        "Social media",
+        "Direction artistique événementielle",
+        "Direction artistique",
+        "Signalétique et habillage",
+        "Retouche",
+        "3D",
+        "Vidéo"
+      ],
+      "mobilite": [
+        "Lille",
+        "MEL",
+        "Cambraisis"
+      ],
       "dispo": "",
       "portfolio": "https://www.figma.com/proto/Iq5u7EbL9XranWO9pMjpR3/porfolio?node-id=185-82&t=RqZavGCek1NbXzqF-1&scaling=min-zoom&content-scaling=fixed&page-id=124%3A2&starting-point-node-id=145%3A2",
       "images": [
