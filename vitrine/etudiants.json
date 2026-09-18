@@ -39,7 +39,8 @@
       "Direction artistique",
       "Signalétique et habillage",
       "Retouche",
-      "3D"
+      "3D",
+      "Vidéo"
     ],
     "mobilite": [
       "Lille",
@@ -224,6 +225,32 @@
       "portfolio": "https://drive.google.com/file/d/1klNtkbeUNlNHNS15qX7o4lAPVPuiF8DX/view?usp=sharing",
       "images": [
         "images/adele_mu6ricpc.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "jeanne",
+      "prenom": "Jeanne",
+      "duree": "2 ans",
+      "accroche": "Du bordeaux, du crème et du jaune franc, un pied dans la typographie suisse et l'autre dans le lettrage tracé à la main. Des affiches pour la musique, le cinéma, la scène.",
+      "specialites": [
+        "Édition et print",
+        "Typographie",
+        "Photographie",
+        "Motion design",
+        "Illustration",
+        "Conception-rédaction",
+        "Direction artistique"
+      ],
+      "mobilite": [
+        "Lille",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://readymag.website/u189119732/5279275/",
+      "images": [
+        "images/jeanne_mu6rt1u0.webp"
       ],
       "statut": "disponible",
       "entreprise": ""
