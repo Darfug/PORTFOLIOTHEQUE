@@ -254,6 +254,32 @@
       ],
       "statut": "disponible",
       "entreprise": ""
+    },
+    {
+      "id": "flore",
+      "prenom": "Flore",
+      "duree": "2 ans",
+      "accroche": "Un travail sur l'image dégradée : pixellisation, bichromies tranchées, textures de papier plié. Et des logos en lettrage massif aux arrondis généreux.",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Typographie",
+        "UI design",
+        "Packaging",
+        "Motion design",
+        "Direction artistique"
+      ],
+      "mobilite": [
+        "Lille",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://drive.google.com/file/d/1YLZ1vUwpsoN4hizf-aiA05jnuDV719zU/view",
+      "images": [
+        "images/flore_mu6s1fvt.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
     }
   ]
 }
