@@ -38,7 +38,8 @@
       "Direction artistique événementielle",
       "3D et CGI",
       "Direction artistique",
-      "Signalétique et habillage"
+      "Signalétique et habillage",
+      "Retouche"
     ],
     "mobilite": [
       "Lille",
@@ -166,6 +167,32 @@
       "portfolio": "https://drive.google.com/file/d/1k56j1d5xBWFHmKH0vTo4jfxsGa7OXlZU/view?usp=sharing",
       "images": [
         "images/mathilde_mu6qhyhc.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "alexandra",
+      "prenom": "Alexandra",
+      "duree": "2 ans",
+      "accroche": "Des images composites à forte densité, du lettrage taillé dans la masse, des palettes à deux ou trois couleurs qui claquent. La texture avant le lisse.",
+      "specialites": [
+        "Identité de marque",
+        "Typographie",
+        "Photographie",
+        "Illustration",
+        "Social media",
+        "Direction artistique événementielle",
+        "Retouche"
+      ],
+      "mobilite": [
+        "Lille",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://www.dropbox.com/scl/fi/tp1zbbjbb1r69g50nbtrf/Portfolio-2026.pdf?rlkey=gdqrg0rr31hmstj7bugeg32ck&st=ykjed6qs&e=1&dl=0",
+      "images": [
+        "images/alexandra_mu6rb776.webp"
       ],
       "statut": "disponible",
       "entreprise": ""
