@@ -40,7 +40,8 @@
       "Signalétique et habillage",
       "Retouche",
       "3D",
-      "Vidéo"
+      "Vidéo",
+      "Storyboard"
     ],
     "mobilite": [
       "Lille",
@@ -277,6 +278,31 @@
       "portfolio": "https://drive.google.com/file/d/1YLZ1vUwpsoN4hizf-aiA05jnuDV719zU/view",
       "images": [
         "images/flore_mu6s1fvt.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "lea",
+      "prenom": "Léa",
+      "duree": "2 ans",
+      "accroche": "Un dessin de personnages qui porte tout, des rouges et des roses posés sur du noir et blanc, et le récit pensé par séquences plutôt que par images isolées.",
+      "specialites": [
+        "Photographie",
+        "Motion design",
+        "Illustration",
+        "Direction artistique",
+        "3D",
+        "Storyboard"
+      ],
+      "mobilite": [
+        "Lille",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://www.behance.net/gallery/249800305/Portfolio-2026",
+      "images": [
+        "images/lea_mu6s5jfu.webp"
       ],
       "statut": "disponible",
       "entreprise": ""
