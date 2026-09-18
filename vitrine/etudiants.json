@@ -41,7 +41,8 @@
       "Retouche",
       "3D",
       "Vidéo",
-      "Storyboard"
+      "Storyboard",
+      "Direction artistique culturelle"
     ],
     "mobilite": [
       "Lille",
@@ -380,6 +381,32 @@
       "portfolio": "https://readymag.website/u1958867844/6116866/",
       "images": [
         "images/gia_mu6spbmj.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "louise",
+      "prenom": "Louise",
+      "duree": "2 ans",
+      "accroche": "La photo comme point de départ, traitée en superpositions colorées ou laissée nue. Des mises en page aérées, du papier calque, de l'illustration au trait posée en aplats clairs.",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Photographie",
+        "Illustration",
+        "Direction artistique",
+        "Direction artistique culturelle"
+      ],
+      "mobilite": [
+        "Lille",
+        "Paris",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://www.behance.net/gallery/247575547/PORTFOLIO-2026",
+      "images": [
+        "images/louise_mu6t1ihx.webp"
       ],
       "statut": "disponible",
       "entreprise": ""
