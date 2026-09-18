@@ -51,7 +51,8 @@
       "Normandie",
       "MEL",
       "île-de-France",
-      "Cambraisis"
+      "Cambraisis",
+      "Marseille"
     ]
   },
   "etudiants": [
@@ -352,6 +353,33 @@
       "portfolio": "https://drive.google.com/file/d/1mVZfzFr3B-enhPQBQab3DOBpa-EjnVWW/view?usp=sharing",
       "images": [
         "images/morgan_mu6smbd0.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "gia",
+      "prenom": "Gia",
+      "duree": "2 ans",
+      "accroche": "",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Webdesign",
+        "UI design",
+        "UX design",
+        "Photographie"
+      ],
+      "mobilite": [
+        "Lille",
+        "Paris",
+        "MEL",
+        "Marseille"
+      ],
+      "dispo": "",
+      "portfolio": "https://readymag.website/u1958867844/6116866/",
+      "images": [
+        "images/gia_mu6spbmj.webp"
       ],
       "statut": "disponible",
       "entreprise": ""
