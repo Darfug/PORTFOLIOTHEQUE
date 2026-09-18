@@ -442,6 +442,33 @@
       ],
       "statut": "disponible",
       "entreprise": ""
+    },
+    {
+      "id": "leonie",
+      "prenom": "Léonie",
+      "duree": "2 ans",
+      "accroche": "",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Photographie",
+        "Packaging",
+        "Motion design",
+        "Social media",
+        "Direction artistique événementielle",
+        "Direction artistique"
+      ],
+      "mobilite": [
+        "Lille",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://readymag.website/u417178017/6217814/",
+      "images": [
+        "images/leonie_mu6tcm5p.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
     }
   ]
 }
