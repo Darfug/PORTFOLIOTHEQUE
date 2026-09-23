@@ -557,6 +557,33 @@
       ],
       "statut": "disponible",
       "entreprise": ""
+    },
+    {
+      "id": "clara",
+      "prenom": "Clara",
+      "duree": "2 ans",
+      "accroche": "",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Photographie",
+        "Packaging",
+        "Direction artistique",
+        "3D",
+        "Direction artistique culturelle"
+      ],
+      "mobilite": [
+        "Lille",
+        "Hauts-de-France",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://readymag.website/u327585567/6421119/",
+      "images": [
+        "images/clara_mue4otdl.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
     }
   ]
 }
