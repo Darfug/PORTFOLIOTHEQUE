@@ -42,7 +42,8 @@
       "3D",
       "Vidéo",
       "Storyboard",
-      "Direction artistique culturelle"
+      "Direction artistique culturelle",
+      "Design produit et textile"
     ],
     "mobilite": [
       "Lille",
@@ -526,6 +527,33 @@
       "portfolio": "https://readymag.website/u944248948/6275330/",
       "images": [
         "images/elian_mu6tvace.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "laura",
+      "prenom": "Laura",
+      "duree": "1 an",
+      "accroche": "Des aplats francs découpés en réserve, une typographie ronde et pleine, et un goût pour l'objet : vitrine, textile, packaging, volume.",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Packaging",
+        "Illustration",
+        "Direction artistique événementielle",
+        "Signalétique et habillage",
+        "Direction artistique culturelle",
+        "Design produit et textile"
+      ],
+      "mobilite": [
+        "Lille",
+        "Hauts-de-France"
+      ],
+      "dispo": "",
+      "portfolio": "https://drive.google.com/file/d/1k3cESzspIBKiIhVkaNMBgjhD3pYlid8b/view?usp=sharing",
+      "images": [
+        "images/laura_mudytevi.webp"
       ],
       "statut": "disponible",
       "entreprise": ""
