@@ -587,6 +587,30 @@
       ],
       "statut": "disponible",
       "entreprise": ""
+    },
+    {
+      "id": "clement",
+      "prenom": "Clément",
+      "duree": "2 ans",
+      "accroche": "",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Motion design",
+        "Direction artistique",
+        "Vidéo"
+      ],
+      "mobilite": [
+        "Lille",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://readymag.website/u23279743/6497517/projets/",
+      "images": [
+        "images/clement_muledhv9.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
     }
   ]
 }
