@@ -43,7 +43,8 @@
       "Vidéo",
       "Storyboard",
       "Direction artistique culturelle",
-      "Design produit et textile"
+      "Design produit et textile",
+      "Design Graphique"
     ],
     "mobilite": [
       "Lille",
@@ -608,6 +609,34 @@
       "portfolio": "https://readymag.website/u23279743/6497517/projets/",
       "images": [
         "images/clement_muledhv9.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
+    },
+    {
+      "id": "elian",
+      "prenom": "Elian",
+      "duree": "2 ans",
+      "accroche": "",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Webdesign",
+        "Direction artistique événementielle",
+        "Direction artistique",
+        "3D",
+        "Direction artistique culturelle",
+        "Design Graphique"
+      ],
+      "mobilite": [
+        "Lille",
+        "Hauts-de-France",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://drive.google.com/file/d/1LXWVexCItGyNRXjRIXbUXs2euzWiqybe/view?usp=sharing",
+      "images": [
+        "images/elian_mvjcoj4c.webp"
       ],
       "statut": "disponible",
       "entreprise": ""
