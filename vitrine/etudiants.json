@@ -640,6 +640,36 @@
       ],
       "statut": "disponible",
       "entreprise": ""
+    },
+    {
+      "id": "hugo",
+      "prenom": "Hugo",
+      "duree": "2 ans",
+      "accroche": "",
+      "specialites": [
+        "Identité de marque",
+        "Édition et print",
+        "Typographie",
+        "Motion design",
+        "Illustration",
+        "Direction artistique événementielle",
+        "Direction artistique",
+        "Vidéo",
+        "Direction artistique culturelle",
+        "Design Graphique"
+      ],
+      "mobilite": [
+        "Lille",
+        "Hauts-de-France",
+        "MEL"
+      ],
+      "dispo": "",
+      "portfolio": "https://drive.google.com/drive/folders/1XHgTjmRW7VZv7qYWEp1dkUmkv_I6CTRP?usp=sharing",
+      "images": [
+        "images/hugo_mw0iiuhj.webp"
+      ],
+      "statut": "disponible",
+      "entreprise": ""
     }
   ]
 }
